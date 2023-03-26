@@ -14,7 +14,9 @@ The maze is represented as a grid of vertices connected by edges. This applicati
 ## Installation and Running
 Ensure that you have Java JDK installed on your system. You can download it from here if you don't have it already.
 Download or clone this repository to your local machine.
+
 Make sure the javalib library is available on your system. You can download it from here.
+
 Compile the Java files by running the following command in your terminal/command prompt:
 ```bash
 javac -cp ".:javalib-6.1.0.jar" *.java
@@ -31,9 +33,12 @@ Note: Replace javalib-6.1.0.jar with the correct path and filename for your syst
 Once the maze game is running, you can visualize the search algorithms by pressing the following keys:
 
 Press "b" to perform a Breadth-First Search (BFS) on the maze.
+
 Press "d" to perform a Depth-First Search (DFS) on the maze.
+
 The program will then visualize the search algorithm's progress through the maze by changing the colors of the vertices.
 
 ## Acknowledgements
 Professor Vido for providing his guidance through the project.
+
 My partner Astro Ohnuma for working with me on this project.
