@@ -16,19 +16,15 @@ Ensure that you have Java JDK installed on your system. You can download it from
 Download or clone this repository to your local machine.
 Make sure the javalib library is available on your system. You can download it from here.
 Compile the Java files by running the following command in your terminal/command prompt:
-bash
-Copy code
-'''
+```bash
 javac -cp ".:javalib-6.1.0.jar" *.java
-'''
+```
 Note: Replace javalib-6.1.0.jar with the correct path and filename for your system.
 
 Run the MazeWorld class to start the maze game:
-bash
-Copy code
-'''
+```bash
 java -cp ".:javalib-6.1.0.jar" MazeWorld
-'''
+```
 Note: Replace javalib-6.1.0.jar with the correct path and filename for your system.
 
 ## Usage
